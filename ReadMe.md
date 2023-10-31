@@ -5,6 +5,10 @@
 -> Criando HTML da página inicial
 
 #Versão 1.2.0 <br>
--> Iniciando estilização da página
--> Melhorando ReadMe
--> Resetando CSS
+-> Iniciando estilização da página <br>
+-> Melhorando ReadMe <br>
+-> Resetando CSS <br>
+
+#Versão 1.3.0 <br>
+-> Estilizando título <br>
+-> Estilizando descrição <br>

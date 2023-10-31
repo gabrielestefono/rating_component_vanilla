@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 main{
 	background-color: #131518;
 	width: 100vw;
@@ -6,3 +8,60 @@ main{
 	justify-content: center;
 	align-items: center;
 }
+
+main > div{
+	background: radial-gradient(circle, rgba(35,42,52,1) 0%, rgba(24,30,39,1) 100%);
+	width: 87.2vw;
+	height: 22.5rem;
+	border-radius: .9375rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+main > div > div{
+	width: calc(100% - 3rem);
+	height: calc(100% - 3rem);
+}
+
+main > div > div > div:first-child{
+	width: 2.5rem;
+	height: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1000px;
+	background-color: #262E38;
+}
+
+main > div > div > div:first-child > div{
+	background-image: url(../icons/star.svg);
+	width: .875rem;
+	height: .875rem;
+}
+
+main > div > div > div:nth-child(2){
+	margin-top: 1rem;
+}
+
+main > div > div > div:nth-child(2) > h1{
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 700;
+}
+
+main > div > div > div:nth-child(3){
+	margin-top: 1.0625rem;
+}
+
+main > div > div > div:nth-child(3) > p{
+	color: #969FAD;
+	font-size: 0.875rem;
+	font-family: 'Overpass', sans-serif;
+	line-height: 1.375rem;
+	font-weight: 400;
+}
+
+main > div > div > div:last-child{}
