@@ -64,4 +64,65 @@ main > div > div > div:nth-child(3) > p{
 	font-weight: 400;
 }
 
-main > div > div > div:last-child{}
+main > div > div > div:last-child{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+main > div > div > div:last-child > div:first-child{
+	width: 100%;
+	display: flex;
+	gap: 1.0625rem;
+	margin-top: 1.5rem;
+}
+
+main > div > div > div:last-child > div:first-child > div{
+	width: 2.625rem;
+	height: 2.625rem;
+	border-radius: 2.625rem;
+	background-color: #262E38;
+	color: #979797;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Overpass', sans-serif;
+}
+
+main > div > div > div:last-child > div:first-child > div:hover{
+	background-color: #FC7614;
+	color: #ffffff;
+	font-family: 'Overpass', sans-serif;
+	cursor: pointer;
+}
+
+.nota--active{
+	background-color: #7C8798;
+	color: #ffffff;
+}
+
+main > div > div > div:last-child > div:last-child{
+	margin-top: 1.5rem;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+main > div > div > div:last-child > div:last-child button{
+	width: 17.4375rem;
+	background-color: #FC7614;
+	height: 2.8125rem;
+	color: #ffffff;
+	border-radius: 3.125rem;
+	border: none;
+	font-family: 'Overpass', sans-serif;
+	font-size: .875rem;
+	letter-spacing: 0.1875rem;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+main > div > div > div:last-child > div:last-child button:hover{
+	background-color: #ffffff;
+	color: #FC7614;
+}

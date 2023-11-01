@@ -12,3 +12,6 @@
 #Versão 1.3.0 <br>
 -> Estilizando título <br>
 -> Estilizando descrição <br>
+
+#Versão 1.4.0 <br>
+-> Finalizando estilo da primeira página <br>
