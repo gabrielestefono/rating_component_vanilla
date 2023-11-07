@@ -15,3 +15,6 @@
 
 #Versão 1.4.0 <br>
 -> Finalizando estilo da primeira página <br>
+
+#Versão 1.5.0 <br>
+-> Criando javascript para manter estado de ativo <br>

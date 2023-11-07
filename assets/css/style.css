@@ -97,8 +97,8 @@ main > div > div > div:last-child > div:first-child > div:hover{
 }
 
 .nota--active{
-	background-color: #7C8798;
-	color: #ffffff;
+	background-color: #7C8798 !important;
+	color: #ffffff !important;
 }
 
 main > div > div > div:last-child > div:last-child{
