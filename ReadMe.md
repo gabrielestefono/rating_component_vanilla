@@ -18,3 +18,6 @@
 
 #Versão 1.5.0 <br>
 -> Criando javascript para manter estado de ativo <br>
+
+#Versão 1.6.0 <br>
+-> Criando HTML e CSS da segunda página <br>

@@ -12,3 +12,6 @@ nota.forEach((element) => {
 		})
 	});
 });
+
+let thanks = document.getElementById('thanks');
+thanks.style.display = 'none';
